@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"> 
+<head>
+    <meta charset="UTF-8">
+    <title>I'm not a robot</title>
+    <link rel="stylesheet" href="die.css">
+</head>
+
+<body>
+
+ <div class="box">
+
+        <div class="blue-header">
+            <h1>i am not a robot</h1>
+            <p>Please verify that you are not a robot by answering:</p>
+            <p id="level-display"></p>
+        </div>
+
+        
+        <div class="question-area">
+        <h2 id="question-text">x</h2>
+    </div>
+
+
+        <div class="answer-area">
+
+            <input type="number" id="answer"
+            placeholder="Write your answer here">
+
+            <button id="verify-button" onclick="checkAnswer()">
+    Verify
+</button>
+
+        </div>
+
+    </div>
+
+<script src="gen.js"></script>
+
+</body>
+
+
+</html>
